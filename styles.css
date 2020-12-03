@@ -1,0 +1,103 @@
+header {
+ color: #111;
+ font-family: 'Helvetica Neue', sans-serif;
+ font-size: 80px;
+ font-weight: bold;
+ letter-spacing: -1px;
+ line-height: 1;
+ text-align: center;
+ text-shadow: 2px 2px 4px;
+}
+
+#footer1, #footer2 {
+    position: absolute;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 1px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#footer3 {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 1px 0px 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+p, h1 {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 30px;
+}
+
+h3 {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 30px;
+}
+
+nav {
+      position: fixed;
+      left: 0;
+      z-index: auto;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 110vh;
+}
+
+body {
+    background-color: RGB(223, 207, 190);
+    text-align: center;
+}
+
+#form1, #fullname, #fulladdress, #pnumber1, #email1, #select1, #addressform, #sameAddress1, #mainform3, #email4, #form3 {
+    padding:5px;
+    border-radius:5px;
+    box-shadow: 0, 2px 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formlabel, #fullname1, #fulladdress1, #fullnumber1, #fullemail1, #select1, #article1, #mainform3, #formlabel3 {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 30px;
+    margin: 0;
+}
+
+#submit1, #submit2, #submit3 {
+    width: 150px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    box-shadow: 0px 4px 8px black;
+}
+
+#submit2:hover {
+      background-color: transparent;
+      border-color: #fff;
+      transition: all .1s ease-in-out;
+}
+
+#outlinebox, #article1 {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: auto;
+}
